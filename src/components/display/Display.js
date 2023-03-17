@@ -51,18 +51,6 @@ const Display = () => {
 
     return (
         <>
-            <div>
-                <select
-                    name="type"
-                    value={type}
-                    onChange={onSelectTag}
-                    className="form-control form-control-sm"
-                    style={selectTagStyle}
-                >
-                    <option value="password">Random Password</option>
-                    <option value="pin">PIN</option>
-                </select>
-            </div>
             <div className="row">
                 <div className="col-12 password-display-container"
                     style={{ backgroundColor: setBackgroundColor(password) }}
